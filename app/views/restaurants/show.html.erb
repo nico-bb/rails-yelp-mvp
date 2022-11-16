@@ -1,0 +1,7 @@
+<div class="p-3">
+  <%= render @restaurant %>
+
+  <%= render "reviews/form", review: @review %>
+</div>
+
+<%= link_to "Back to restaurants", restaurants_path %>

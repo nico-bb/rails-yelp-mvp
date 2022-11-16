@@ -1,0 +1,16 @@
+<div class="dom-id restaurant">
+  <p>
+    <strong>Name</strong>
+    <%= restaurant.name %>
+  </p>
+  <p>
+    <strong>Addess</strong>
+    <%= restaurant.address %>
+  </p>
+  <% unless restaurant.phone_number.nil? %>
+    <p>
+      <strong>Phone Number</strong>
+      <%= restaurant.phone_number %>
+    </p>
+  <% end %>
+</div>
